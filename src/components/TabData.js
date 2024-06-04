@@ -73,9 +73,9 @@ const TabData = () => {
               ))}
             </div>
           </div>
-          <div className='hidden md:block w-full h-auto md:w-[550px] md:h-[700px] rounded-lg bg-gradient-to-r from-[#F58D86] to-purple-600 flex items-center justify-center'>
-    <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63f64bb2507621d0bf7da369_Demand%20forecasting-p-1080.webp" alt="" className="w-full h-auto md:w-auto md:h-auto" />
-  </div>
+          <div className='hidden md:flex w-full h-auto md:w-[550px] md:h-[700px] rounded-lg bg-gradient-to-r from-[#F58D86] to-purple-600 items-center justify-center'>
+  <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63f64bb2507621d0bf7da369_Demand%20forecasting-p-1080.webp" alt="" className="w-full h-auto md:w-auto md:h-auto" />
+</div>
         </div>
         <div className="flex items-center justify-center mt-16">
           <button className='relative items-center text-center justify-center w-auto md:w-52 h-10 outline-button text-md md:text-lg rounded-full mt-4 text-transparent bg-clip-text bg-gradient-to-r from-[#F58D86] to-purple-600 border border-purple-600 transition duration-300 ease-in-out hover:bg-gradient-to-r hover:from-purple-600 hover:to-[#F58D86] hover:scale-95'>
