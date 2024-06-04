@@ -64,7 +64,7 @@ const TabData = () => {
                   {activeIndex === index && (
                     <p className="mt-4  sm:text-base md:text-md text-black">
                       {faq.answer}
-                      <a href="#" className=" flex items-center mt-5 text-transparent bg-clip-text bg-gradient-to-r from-[#F58D86] to-purple-600">
+                      <a href="/" className=" flex items-center mt-5 text-transparent bg-clip-text bg-gradient-to-r from-[#F58D86] to-purple-600">
                         Learn more 
                       </a>
                     </p>
@@ -74,7 +74,7 @@ const TabData = () => {
             </div>
           </div>
           <div className='w-full  h-auto md:w-[550px] md:h-[700px] rounded-lg bg-gradient-to-r from-[#F58D86] to-purple-600 flex items-center justify-center'>
-            <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63f64bb2507621d0bf7da369_Demand%20forecasting-p-1080.webp" alt="" className="w-full h-auto md:w-auto md:h-auto" />
+            <img src="https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/63f64bb2507621d0bf7da369_Demand%20forecasting-p-1080.webp" alt="img" className="w-full h-auto md:w-auto md:h-auto" />
           </div>
         </div>
         <div className="flex items-center justify-center mt-16">
