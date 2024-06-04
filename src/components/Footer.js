@@ -49,16 +49,16 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Explore</h3>
             <ul className="text-gray-400">
               <li className="mb-2">
-                <a href="#" className="hover:text-white">Product</a>
+                <a href="/" className="hover:text-white">Product</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:text-white">Pricing</a>
+                <a href="/" className="hover:text-white">Pricing</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:text-white">Customer Stories</a>
+                <a href="/" className="hover:text-white">Customer Stories</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:text-white">Career</a>
+                <a href="/" className="hover:text-white">Career</a>
               </li>
             </ul>
           </div>
@@ -66,10 +66,10 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Learn</h3>
             <ul className="text-gray-400">
               <li className="mb-2">
-                <a href="#" className="hover:text-white">About us</a>
+                <a href="/" className="hover:text-white">About us</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="hover:text-white">Blog</a>
+                <a href="/" className="hover:text-white">Blog</a>
               </li>
             </ul>
           </div>
@@ -90,16 +90,16 @@ const Footer = () => {
               India. 560102
             </p>
             <div className="flex mt-8">
-              <a href="#" className="text-gray-400 hover:text-white mr-4">
+              <a href="/" className="text-gray-400 hover:text-white mr-4">
                 <FaTwitter />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white mr-4">
+              <a href="/" className="text-gray-400 hover:text-white mr-4">
                 <FaFacebookF />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white mr-4">
+              <a href="/" className="text-gray-400 hover:text-white mr-4">
                 <FaInstagram />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="/" className="text-gray-400 hover:text-white">
                 <FaLinkedinIn />
               </a>
             </div>
