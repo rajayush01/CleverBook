@@ -1,0 +1,56 @@
+.text-gradient {
+    background: linear-gradient(to right, #F58D86, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-slide {
+    animation: slide 5s linear infinite;
+  }
+  
+  html{
+    overflow-x: hidden;
+  }
+
+  @keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-slide-down {
+    animation: slide-down 0.3s ease-out;
+  }
+  
+  
+    @keyframes scroll {
+      from {
+        transform: translateX(-0%);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+
+    .sizing-dont-shrink-grow{
+      animation: scroll 40s linear infinite;
+    }
+
+    .hp-client-slider-wrapper:hover > .sizing-dont-shrink-grow  {
+        animation-play-state: paused;
+    }
+    
